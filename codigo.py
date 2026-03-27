@@ -26,7 +26,7 @@ def obter_cidade(): #define a função que vai obter a cidade
     elif dados['cod'] == '403':
       print('Acesso negado')
     else :
-      print('Cidade encontrada') #caso cidade entonntrada
+      print('Cidade encontrada') #caso cidade encontrada
       print('Buscando...')
       print()
       time.sleep(3) #pequena pausa, apenas por questão estética
